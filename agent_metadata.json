@@ -1,0 +1,30 @@
+{
+  "name": "ASTER Long-Only Grid Strategy (15m Data)",
+  "tags": [
+    "grid",
+    "long_only",
+    "15m",
+    "ASTER",
+    "breakout_detection",
+    "5x_leverage",
+    "mean_reversion"
+  ],
+  "model": "claude-sonnet-4-5-20250929",
+  "version": 7,
+  "exchange": "aster",
+  "timeframe": "5m",
+  "timestamp": "2025-11-13T13:51:34.567830",
+  "risk_level": "Medium",
+  "cloned_from": null,
+  "description": "Long-only grid trading strategy for ASTER using 15-minute timeframe data. Places buy orders at geometric intervals below current price to accumulate positions during dips. Implements 8% take profit on long positions. Features upward breakout detection (hold position) and downward breakout protection (liquidate and wait). Uses 0.5% grid spacing with 40 levels per side, 5x leverage, and 85% margin utilization. Executes every 5 minutes with comprehensive real-time analytics including volatility metrics, trend analysis, and position tracking.",
+  "market_type": "perp",
+  "last_updated": null,
+  "strategy_type": [
+    "grid",
+    "mean_reversion",
+    "technical_analysis"
+  ],
+  "trading_assets": [
+    "ASTER"
+  ]
+}
