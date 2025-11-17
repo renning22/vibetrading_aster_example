@@ -12,9 +12,12 @@ This repository demonstrates a production-ready AI agent managed quant program b
 
 This AI agent managed quant program is currently running live on **Aster Exchange** and has been actively trading ASTER perpetual futures for **weeks** without interruption.
 
-**On-Chain Address**: `0x8fa6498f83ae574de8cb13f52281a98fc9e92071`
+**On-Chain Address**: `0x8fa6498f83ae574de8cb13f52281a98fc9e92071`  
+**VibeTrading.dev Agent**: [View on VibeTrading.dev](https://vibetrading.dev/agent/2025-10-29_09-19-32_8a9b5d2a_0_live)
 
-You can monitor the quant program's live performance and trading activity on Aster Exchange using the address above.
+You can monitor the quant program's live performance and trading activity:
+- On **Aster Exchange** using the on-chain address above
+- On **VibeTrading.dev** platform with real-time analytics and performance metrics
 
 ### Production Code & Logs
 
